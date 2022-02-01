@@ -1,0 +1,46 @@
+.left
+{
+    width: 15%;
+    border: 2px solid blue;
+}
+
+.centre
+{
+    width: 30%;
+    border: 2px dotted red;
+}
+
+.right
+{
+    width: 20%;
+    border: 2px dashed green;
+}
+
+#parent
+{
+    display: flex;
+}
+
+img
+{
+    width: 100%;
+}
+
+ul
+{
+    list-style: none;
+    display: flex;
+}
+
+li
+{
+    padding: 5px;
+    margin: 5px;
+    border: 2px solid red;
+    background-color: lightcoral;
+}
+
+.dept
+{
+    display: none;
+}

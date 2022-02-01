@@ -1,0 +1,75 @@
+h2
+{
+    color:darkgreen;
+    border: 3px deepskyblue;
+    color: darkmagenta;
+    background-color: darkseagreen;
+}
+
+.bgcol
+{
+    background-color: darkred;
+    position: relative;
+}
+#talign
+{
+    text-align: center;
+    background-color: gold;
+    background-image: url("../images/img2.jpeg");
+}
+
+/*
+body
+{
+    background-image: url("../images/img2.jpeg");   
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+*/
+
+/* margin: auto all*/
+/* margin: (top botton) (right left)*/
+/* margin: (top right bottom)*/
+/* margin: (top right bottom left)*/
+/*padding space between content and border*/
+.h2margin
+{
+    /*margin: 100px 400px 200px 700px;*/
+    margin: 100px;
+    padding: 100px;
+}
+
+.para1
+{
+    background-color:black;
+    position: fixed;
+}
+.para2
+{
+    background-color:red;
+    position: absolute;
+}
+.para3
+{
+    background-color:green;
+    position: relative;
+}
+
+.para4
+{
+    width: 100px ;
+    height: 100px;
+    overflow: auto;
+    border: 4px red solid;
+    display:inline;
+}
+
+.img1
+{
+    float:left;
+}
+.img2
+{
+    float:right;
+}

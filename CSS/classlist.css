@@ -1,0 +1,13 @@
+.col1 .col2 .col3
+{
+    border: 3px solid red;
+}
+
+.imgSize
+{
+    width: 100px;
+}
+.hidetag
+{
+    display: block;
+}

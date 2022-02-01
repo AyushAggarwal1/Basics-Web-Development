@@ -1,0 +1,29 @@
+img
+{
+    border: 2px dotted red;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    transition-duration: 3s;
+    box-shadow: 50px 40px 20px red;
+}
+
+div
+{
+    perspective: 300px;
+}
+
+img:hover
+{
+    /* we can also give negative values */
+    /* 
+    transform: translateX(300px);
+    transform: translateY(400px);
+    transform: translate(300px,400px);
+    transform: scale(10%,20%);
+    transform: rotate(180deg);
+    transform: skew(30deg,40deg);
+    */
+    transform: rotateY(-180deg);
+}
+

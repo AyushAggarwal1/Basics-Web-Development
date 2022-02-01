@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags in HTML</title>
+</head>
+<body>
+    This will appear in the browser.
+
+    <h1>
+        Heading 1
+    </h1>
+
+    <h3>
+        First Topic (h3)
+    </h3>
+
+    <p>
+        Lorem <i>ipsum dolor sit,</i> amet consectetur adipisicing elit. Adipisci veniam velit animi possimus esse cupiditate nostrum corrupti asperiores cum quae facere, ducimus temporibus aliquam inventore tempore error eius corporis incidunt.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam iusto illum quia officiis possimus ab. Suscipit fugiat laudantium aliquid iusto, similique assumenda qui excepturi, <b>praesentium</b>, quam et <u>nesciunt</u> magnam a.
+    </p>
+
+    <!---unordered list-->
+    <ul>
+        <li>SOET</li>
+        <ul>
+            <li>ECE</li>
+            <li>CSE</li>
+            <li>CIVIL</li>
+            <li>ME</li>
+        </ul>
+        <li>SOM</li>
+        <li>CLL</li>
+        <li>SPA</li>
+        <li>SOP</li>
+    </ul>
+
+    <!--ordered list-->
+    <!--ol>li*4 shortcut -->
+    <ol>
+        <li>Game Tech</li>
+        <li>Data Science</li>
+        <li>Full Stack</li>
+        <li>AI & ML</li>
+        <li>Cyber Security</li>
+    </ol>
+
+    <!--anchor tag for link(hyperlink)-->
+    <a href="https://www.google.com/">Google</a>
+    
+    <hr>
+
+    <!--image tag, src-path of image, alt-replace image to text when image doesn't load--->
+    <img src="images/img1.jpg" alt="img1">
+    
+    <!--image from web, src-path of image, alt-replace image to text when image doesn't load--->
+    <img src="https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/27/72/b3.jpg" alt="image from web">
+
+    <!--table tag-1. table header(thead), 2. table row (tr) 3. table row(td)-->
+    <!--for border border=-->
+    <!--rowspan to merge row-->
+    <!--colspan to merge col-->
+    <table border=1px>
+       <thead>
+            <th>S. No.</th>
+            <th>Roll No.</th>
+            <th>Name</th>
+            <th>Branch</th>
+       </thead>
+       <tr>
+           <td>1.</td>
+           <td>001</td>
+           <td>A</td>
+           <td rowspan=2>CSE</td>
+       </tr>
+       <tr>
+           <td>2.</td>
+           <td>002</td>
+           <td>B</td>
+           <td>CSE</td>
+       </tr>
+       <tr>
+           <td>3,</td>
+           <td>010</td>
+           <td>C</td>
+           <td rowspan=2>ECE</td>
+       </tr>
+       <tr>
+           <td>4.</td>
+           <td>011</td>
+           <td>D</td>
+           <td>ECE</td>
+       </tr>
+    </table>
+
+    <hr>
+    
+    <!--form tag-->
+    <form action="">
+        <p>
+            enter your name: <input type="text" name = "" id="">
+        </p>
+
+        <p>
+            enter your roll number: <input type="text">
+        </p>
+
+        <p>
+            enter your branch: 
+            CSE <input type="radio" name="choice" id="">
+            ECE <input type="radio" name="choice" id="">
+            Civil <input type = "radio" name="choice">
+        </p>
+
+        <p>
+            Tea: <input type="checkbox" name="choice 1" id="">
+            Coffee: <input type="checkbox" name="choice 2" id="">
+        </p>
+
+        <input type="submit" value="OK">
+    </form>
+</body>
+</html>

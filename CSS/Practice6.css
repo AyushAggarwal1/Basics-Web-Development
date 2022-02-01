@@ -1,0 +1,11 @@
+.row
+{
+    display: flex;
+}
+
+.design
+{
+    border: 2px dotted rgb(175, 87, 87);
+    color: rgb(113, 96, 175);
+    border-radius: 10px;
+}

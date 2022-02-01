@@ -1,0 +1,20 @@
+h1
+{
+    text-align: center;
+    color: rgb(29, 27, 29);
+}
+body
+{
+    background-image: url("https://19yw4b240vb03ws8qm25h366-wpengine.netdna-ssl.com/wp-content/uploads/5-Best-Free-and-Paid-Weather-APIs-2019-e1587582023501.png");
+}
+.main
+{
+    display: flexbox;
+    color: rgb(255, 160, 122);
+    font-size: 18px;
+}
+.ma
+{
+    color: cadetblue;
+    font-size: 18px;
+}

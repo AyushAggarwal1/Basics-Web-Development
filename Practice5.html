@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="JavaScript/Practice5.js"></script>
+    <link rel="stylesheet" href="CSS/Practice5.css">
+    <title>Practice 5</title>
+</head>
+<body>
+    <H3>Form to Enter Student Details</H3>
+    Name: <input type="text" name="" id="name">
+    Roll No.: <input type="text" name="" id="rn">
+    Sem: <input type="text" name="" id="sem">
+    Batch: <input type="text" name="" id="batch">
+
+    <br>
+
+    Course1 <input type="number" id="c1" class="shortinput">
+    Course2 <input type="number" id="c2" class="shortinput">
+    Course3 <input type="number" id="c3" class="shortinput">
+    Course4 <input type="number" id="c4" class="shortinput">
+    Course5 <input type="number" id="c5" class="shortinput">
+
+    <br> <button onclick="fillup()">Fill Up</button>
+    <!-- <input type="submit" onclick="fillup()"> -->
+
+    <br>
+
+    <div id="outerdiv">
+
+        <div class="profile">
+            Name: <span id="nm"></span>
+            Roll no.: <span id="rno"></span>
+            Sem.: <span id="s"></span>
+            Batch: <span id="bt"></span>
+        </div>
+
+        <div id="marks">
+
+            <table>
+                <thead>
+                    <th>Course</th>
+                    <th>Grade Obtained</th>
+                    <th>Credits Earned</th>
+                </thead>
+                <tr>
+                    <td>Course1</td>
+                    <td id="co1"></td>
+                    <td id="ce1"></td>
+                </tr>
+                <tr>
+                    <td>Course2</td>
+                    <td id="co2"></td>
+                    <td id="ce2"></td>
+                </tr>
+                <tr>
+                    <td>Course3</td>
+                    <td id="co3"></td>
+                    <td id="ce3"></td>
+                </tr>
+                <tr>
+                    <td>Course4</td>
+                    <td id="co4"></td>
+                    <td id="ce4"></td>
+                </tr>
+                <tr>
+                    <td>Course5</td>
+                    <td id="co5"></td>
+                    <td id="ce5"></td>
+                </tr>
+            </table>
+            
+        </div>
+
+        <div id="cgpa">
+            CGPA : <span id="gpa"></span>
+        </div>
+
+    </div>
+</body>
+</html>

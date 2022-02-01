@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <script src="JavaScript/Practice7.js"></script>
+    <link rel="stylesheet" href="CSS/Practice7.css">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+</head>
+<body>
+    <div>
+        <h1>Weather Dashboard</h1>
+    </div>
+    <lable class="ma">Enter Location</lable>
+    <input class="form-control searchInput" type="text" placeholder="Enter The Location" id="location">
+    <br>
+    <br>
+    <button type="button" class="btn btn-danger" onclick = "serviceReq()">Fetch Data</button>
+    <div class="main">
+        <div id="w"></div>
+        <div id="h"></div>
+        <div id="d"></div>
+        <div id="t"></div>
+        <div id="p"></div>
+        <div id="g"></div>
+        <div id="ds"></div>
+    </div>
+</body>
+</html>

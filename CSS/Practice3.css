@@ -1,0 +1,35 @@
+
+img
+{
+    width: 30px;
+}
+.back
+{
+    background-color: rgb(76, 76, 223);
+}
+.align
+{
+        margin-left: 300px;
+        margin-right: auto;
+        width: 10%;
+}
+.search
+{
+    position: absolute;
+    margin-left: 450px;
+    margin-right: auto;
+    border: none;
+    background-color: transparent;
+    top: 10px;
+}
+
+.search2
+{
+    position: absolute;
+    margin-left: 900px;
+    margin-right: auto;
+    border: none;
+    background-color: transparent;
+    top: 8px;
+    word-spacing: 30px;
+}
